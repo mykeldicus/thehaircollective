@@ -89,3 +89,7 @@
     pointer-events: none;
     transition: .05s;
 }
+.wrapper {
+    width: 500px;
+    margin: 0 auto;
+}
