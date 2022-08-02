@@ -2,11 +2,24 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" 
     integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-  <link href="styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <!--5 star rating
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-star-rating/4.0.2/css/star-rating.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-star-rating/4.0.2/js/star-rating.min.js"></script>-->
+
+     <!-- endbuild -->
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
 
   <title>The Hair Collective About Us</title>
 
@@ -18,7 +31,7 @@
     <div class="container">
       <div class="row">
         <div class="col-4 col-sm-3 col-md-2 align-self-center">
-          <img src="Images/The Rylander.jpg" alt="hairstyleimage" class="img-fluid" />
+         <img src="Images/Glossy Red Head 2.jpg" alt="hairstyleimage" class="img-fluid" />
         </div>
         <div class="col">
           <h1>The Hair Collective</h1>
@@ -50,7 +63,7 @@
       <div class="col-lg-12">
         <h3>Where it Started</h3>
 
-        <div id="accordionBio">
+        <div id="accordion">
           <div class="card">
             <div role="tab" class="card-header">
               <h4>
@@ -59,7 +72,7 @@
                 </a>
               </h4>
 
-              <div class="collapse show" id="George" data-parent="#accordionBio">
+              <div class="collapse show" id="George" data-parent="#accordion">
                 <div class="card-body">
                   <p class="d-none d-sm-block">George Rylander is a Master Stylist and Colorist with over 34 years of
                     industry experience . The Hair
@@ -83,7 +96,7 @@
                 </a>
               </h4>
 
-              <div class="collapse" id="behindChair" data-parent="#accordionBio">
+              <div class="collapse" id="behindChair" data-parent="#accordion">
                 <div class="card-body">
                   <p class="d-none d-sm-block">Behind the chair, George’s warmth and friendly approach will immediately
                     put you at ease.
@@ -106,7 +119,7 @@
                 </a>
               </h4>
 
-              <div class="collapse" id="masterStylist" data-parent="#accordionBio">
+              <div class="collapse" id="masterStylist" data-parent="#accordion">
                 <div class="card-body">
                   <p class="d-none d-sm-block">As a Master Hair Stylist, George tailors his clients' looks to suit their
                     individual hair textures, facial shapes, and lifestyles.
@@ -125,12 +138,12 @@
           <div class="card">
             <div role="tab" class="card-header">
               <h4>
-                <a class="collapsed" data-toggle="collapse" data-target="#behindChair">
+                <a class="collapsed" data-toggle="collapse" data-target="#masterColorist">
                   As a Master Colorist...
                 </a>
               </h4>
 
-              <div class="collapse" id="behindChair" data-parent="#accordionBio">
+              <div class="collapse" id="masterColorist" data-parent="#accordion">
                 <div class="card-body">
                   <p class="d-none d-sm-block">As a Master Colorist, George has an uncanny eye for color formulation. He
                     understands that beautiful and natural looking hair color complements your features and enhances
@@ -149,12 +162,12 @@
           <div class="card">
             <div role="tab" class="card-header">
               <h4>
-                <a class="collapsed" data-toggle="collapse" data-target="#behindChair">
+                <a class="collapsed" data-toggle="collapse" data-target="#Empowering">
                   Empowering People...
                 </a>
               </h4>
 
-              <div class="collapse" id="behindChair" data-parent="#accordionBio">
+              <div class="collapse" id="Empowering" data-parent="#accordion">
                 <div class="card-body">
                   <p class="d-none d-sm-block">George is passionate about empowering people. He is committed that his
                     clients not only love their hair but also every aspect of their lives.
@@ -175,10 +188,10 @@
         </div>
       </div>
     </div>
-
-    <div class="row row-content">
-      <div class="col">
-
+  </div>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-4">
         <h3>Business Hours</h3>
         <table class="table table-dark">
           <thead>
@@ -194,43 +207,43 @@
           </tbody>
           <tbody>
             <tr>
-              <th scope="row">Monday</th>
+              <th scope="row">Tuesday</th>
               <td>Closed</td>
           </tbody>
           <tbody>
             <tr>
-              <th scope="row">Monday</th>
-              <td>Closed</td>
+              <th scope="row">Wednesday</th>
+              <td>11am-8pm</td>
           </tbody>
           <tbody>
             <tr>
-              <th scope="row">Monday</th>
-              <td>Closed</td>
+              <th scope="row">Thursday</th>
+              <td>11am-8pm</td>
           </tbody>
           <tbody>
             <tr>
-              <th scope="row">Monday</th>
-              <td>Closed</td>
+              <th scope="row">Friday</th>
+              <td>11am-8pm</td>
           </tbody>
           <tbody>
             <tr>
-              <th scope="row">Monday</th>
-              <td>Closed</td>
+              <th scope="row">Saturday</th>
+              <td>11am-7pm</td>
           </tbody>
           <tbody>
             <tr>
-              <th scope="row">Monday</th>
+              <th scope="row">Sunday</th>
               <td>Closed</td>
           </tbody>
         </table>
         <hr />
       </div>
     </div>
+  </div>
 
-      <div>
-        <h3>Testimonials</h3>
-
-      </div>
+  <div class="container">
+    <div class="row">
+      <h3>Testimonials</h3>
       <div class="container">
         <div class="box">
           <div class="imgBox">
@@ -241,6 +254,7 @@
             Est numquam incidunt delectus quae minus nostrum corrupti facere
             exercitationem iste iure autem repellendus natus officiis,
             nemo consequatur quisquam sed, at eligendi!</p>
+
           <h4>Someone Famous<br><span>Creative Director</span></h4>
         </div>
         <div class="box">
@@ -252,6 +266,7 @@
             Est numquam incidunt delectus quae minus nostrum corrupti facere
             exercitationem iste iure autem repellendus natus officiis,
             nemo consequatur quisquam sed, at eligendi!</p>
+
           <h4>Someone Famous<br><span>Creative Director</span></h4>
         </div>
         <div class="box">
@@ -263,11 +278,13 @@
             Est numquam incidunt delectus quae minus nostrum corrupti facere
             exercitationem iste iure autem repellendus natus officiis,
             nemo consequatur quisquam sed, at eligendi!</p>
+
           <h4>Someone Famous<br><span>Creative Director</span></h4>
         </div>
       </div>
     </div>
   </div>
+  
 
   <footer>
     <div class="container">
@@ -295,15 +312,10 @@
       </div>
     </div>
   </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
-    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
-    integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
-    crossorigin="anonymous"></script>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
