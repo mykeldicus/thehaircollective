@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Document</title>
+    <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&amp;display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+<!--nav class="review-gate-navbar" style="display: none">
+    <button class="review-gate-navbar__btn">&#10094;</button>
+    <div class="review-gate-navbar__logo-wrapper">
+      <img
+        class="review-gate-navbar__logo"
+        src="./img/Glossy Red Head 1.jpg"
+        alt="logo"
+      />
+    </div>
+  </nav>
+  
+  <!-- Review Gate -->
+
+    <div id="review-gate">
+        <section class="review-step current" data-step="1">
+            <div id="carbon-block" style="margin:30px auto"></div>
+            <div style="margin:30px auto">
+            <script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js">
+            </script>
+            <!--script type="text/javascript">
+            <!--google_ad_client = "ca-pub-2783044520727903";
+                /* jQuery_demo */
+                google_ad_slot = "2780937993";
+                google_ad_width = 728;
+                google_ad_height = 90;
+                //>
+                </script-->
+                <script type="text/javascript" src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+                </script>
+            </div>
+        <h2 class="review-title">Rate Your Recent Experience</h2>
+        <div id="emoji-ratings-wrapper">
+            <style>.jqEmoji{cursor:pointer;opacity:0.2;text-decoration:none;font-size:42px;}
+            </style>
+            <input type="hidden" class="emoji-rating" name="rating" value="2">
+        </div>
+        </section>
+        <section class="review-step" data-step="2" style="display: none;">
+        <h2 class="review-title">Please Leave Us A Review!</h2>
+        <p>
+            " We are happy to hear you had an amazing experience at The Hair Collective!
+            Please take a second and leave a review [review platform]""
+        </p>
+        <a class="btn leave-review-btn" href="#">Leave Review</a>
+        </section>
+        <section class="review-step" data-step="3" style="display: none;">
+        <h2 class="review-title">Please Leave Us Some Feedback</h2>
+        <p>
+            We are sorry to hear you did not have a 5-Star experience. Please
+            take a moment to leave us feedback on how The Hair Collective can improve.
+            <br />
+            <br />
+            [Insert Your Feedback Form Here]
+        </p>
+        </section>
+    </div>
+    <!--JS Dependencies-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./js/review-gate.jquery.js"></script>
+    <script>
+        var config = {
+          navbarColor: '#0f18e9',
+          onUpdate: function (count) {
+            if (count >= 5) {
+              // Do something on good review
+              $('#review-gate').reviewGate('step', 2);
+            } else {
+              // Do something on bad review
+              $('#review-gate').reviewGate('step', 3);
+            }
+          },
+        };
+        $(document).ready(function () {
+          $('#review-gate').reviewGate(config);
+        });
+      </script>
+      <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-36251023-1']);
+        _gaq.push(['_setDomainName', 'jqueryscript.net']);
+        _gaq.push(['_trackPageview']);
+      
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+      
+      </script>
+      
+</body>
+</html>
