@@ -83,7 +83,7 @@
     right: 40px;
     width: 80px;
     height: 80px;
-    background: url(quotes.png);
+    background: "";
     background-size: cover;
     opacity: 0.05;
     pointer-events: none;
