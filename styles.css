@@ -155,7 +155,13 @@ body {
   border-bottom-color: #fff;
 }
 
-.carousel {
-    width: 300px;
+.carousel-inner {
+    width: 400px;
     height: 400px;
+    margin: auto;
+}
+.starbutton {
+  width: 200px;
+  height: 100px;
+  margin: auto;
 }
