@@ -101,7 +101,9 @@ a, a:hover {
   }
 
 body {
-    background-color: rgb(229, 92, 24);
+    /*background-color: rgb(229, 92, 24);*/
+    background-image: url(Images/beautiful-young-woman-on-a-pink-floral-background-SBI-317480016.jpg);
+    background-size: cover;
 }
 
 /*
