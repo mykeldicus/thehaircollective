@@ -114,17 +114,6 @@ body {
   text-shadow: none; /* Prevent inheritance from `body` */
 }
 
-
-/*
- * Base structure
- */
-
-body {
- /*text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);*/
-  height: 100vh;
-  box-shadow: 0 0 2rem rgba(3, 92, 67, 0.5) inset;
-}
-
 .cover-container {
   max-width: 42em;
 }
@@ -162,4 +151,11 @@ body {
   width: 200px;
   height: 100px;
   margin: auto;
+}
+.navbar {
+  padding-left: 1%;
+}
+.jumbotron {
+  margin: 0;
+  padding: 10px;
 }
