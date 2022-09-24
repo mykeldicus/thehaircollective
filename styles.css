@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500')
 .body
-
 {
     margin: 0;
     padding: 0;
@@ -152,10 +151,56 @@ body {
   height: 100px;
   margin: auto;
 }
-.navbar {
-  padding-left:.5%;
-}
+
 .jumbotron {
   margin: 0;
   padding: 10px;
+  position: relative;
 }
+
+.navbar {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+ margin-left: -10%;
+}
+
+.accordion {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.accordion-item {
+  border: 1px solid rgb(2, 126, 54);
+
+}
+
+.accordion-button:not(.collapsed) {
+  color: inherit;
+  background: rgba(232, 176, 10, 0.896);
+  color: rgb(10, 10, 210);
+}
+
+.accordion-button:not(.collapsed)::after {
+  filter: brightness(0%) invert(100%);
+}
+.accordion-button:focus {
+  box-shadow: inherit;
+}
+
+.card {
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.card-item {
+  border: 1px solid rgb(2, 126, 54);
+}
+
+/*.card-button:not(.collapsed) {
+  color: inherit;
+  background: rgba(232, 176, 10, 0.896);
+  color: rgb(10, 10, 210);
+}*/
